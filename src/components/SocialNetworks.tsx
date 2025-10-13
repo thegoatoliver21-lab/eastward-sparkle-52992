@@ -53,7 +53,7 @@ export const SocialNetworks = () => {
   ];
 
   return (
-    <section id="social" className="py-20 px-4 bg-background">
+    <section id="social" className="py-20 px-4" style={{ background: 'var(--gradient-hero)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-pixel text-4xl md:text-5xl mb-6 text-primary">
@@ -71,7 +71,7 @@ export const SocialNetworks = () => {
               <a
                 key={index}
                 href={social.link}
-                className={`bg-secondary border-2 border-border p-8 hover:scale-105 transition-all group ${social.color} block`}
+                className={`bg-background border-2 border-border p-8 hover:scale-105 transition-all group ${social.color} block`}
               >
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 bg-primary flex items-center justify-center group-hover:rotate-12 transition-transform flex-shrink-0">
@@ -95,7 +95,7 @@ export const SocialNetworks = () => {
           })}
         </div>
 
-        <div className="mt-16 text-center bg-secondary border-2 border-border p-12 hover:border-primary transition-all">
+        <div className="mt-16 text-center bg-background border-2 border-border p-12 hover:border-primary transition-all">
           <h3 className="font-pixel text-3xl mb-4">
             ¡ÚNETE A LA COMUNIDAD!
           </h3>
