@@ -30,8 +30,14 @@ export const Events = () => {
   ];
 
   return (
-    <section id="events" className="py-20 px-4" style={{ background: 'var(--gradient-hero)' }}>
-      <div className="max-w-7xl mx-auto">
+    <section id="events" className="relative py-32 px-4 overflow-hidden" style={{ background: 'var(--gradient-hero)' }}>
+      {/* Decorative animated elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-20 left-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+      </div>
+
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-pixel text-4xl md:text-5xl mb-6 text-primary">
             PRÓXIMOS EVENTOS
