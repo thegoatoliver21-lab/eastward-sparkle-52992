@@ -65,7 +65,7 @@ export default {
       },
       fontFamily: {
         pixel: ['"Press Start 2P"', 'cursive'],
-        game: ['Poppins', 'sans-serif'],
+        game: ['Silkscreen', 'cursive'],
       },
       keyframes: {
         "accordion-down": {
