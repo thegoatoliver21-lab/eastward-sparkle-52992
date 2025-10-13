@@ -29,7 +29,7 @@ export const Games = () => {
   ];
 
   return (
-    <section id="games" className="py-20 px-4 bg-background">
+    <section id="games" className="py-20 px-4" style={{ background: 'var(--gradient-hero)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-pixel text-4xl md:text-5xl mb-6 text-primary">
@@ -46,7 +46,7 @@ export const Games = () => {
             return (
               <div
                 key={index}
-                className="bg-secondary border-2 border-border p-6 hover:border-primary transition-all hover:scale-105 group"
+                className="bg-background border-2 border-border p-6 hover:border-primary transition-all hover:scale-105 group"
               >
                 <div className="flex justify-center mb-4">
                   <div className="w-20 h-20 bg-primary flex items-center justify-center group-hover:rotate-12 transition-transform">

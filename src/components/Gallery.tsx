@@ -35,7 +35,7 @@ export const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 px-4 bg-background">
+    <section id="gallery" className="py-20 px-4" style={{ background: 'var(--gradient-hero)' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-pixel text-4xl md:text-5xl mb-6 text-primary">
@@ -52,8 +52,8 @@ export const Gallery = () => {
               key={index}
               className="group cursor-pointer"
             >
-              <div className="relative bg-secondary border-2 border-border aspect-video overflow-hidden group-hover:border-primary transition-all">
-                <div className="absolute inset-0 bg-gradient-to-br from-background to-secondary/50" />
+              <div className="relative bg-background border-2 border-border aspect-video overflow-hidden group-hover:border-primary transition-all">
+                <div className="absolute inset-0 bg-gradient-to-br from-background/50 to-background" />
                 
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-16 h-16 bg-primary flex items-center justify-center group-hover:scale-110 transition-transform">
