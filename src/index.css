@@ -8,48 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 3%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 100%;
 
-    --card: 0 0% 8%;
+    --card: 0 0% 5%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 8%;
+    --popover: 0 0% 5%;
     --popover-foreground: 0 0% 100%;
 
     --primary: 190 95% 55%;
-    --primary-foreground: 0 0% 3%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 55 95% 60%;
-    --secondary-foreground: 0 0% 3%;
+    --secondary: 55 70% 45%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 8%;
+    --muted: 0 0% 5%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 55 95% 60%;
-    --accent-foreground: 0 0% 3%;
+    --accent: 55 70% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
-    --input: 0 0% 8%;
+    --input: 0 0% 5%;
     --ring: 190 95% 55%;
 
     --radius: 0.25rem;
     
     /* Pixel Art Neon Gradients */
-    --gradient-sunset: linear-gradient(135deg, hsl(190 95% 45%), hsl(190 95% 65%));
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 3%) 0%, hsl(0 0% 8%) 100%);
-    --gradient-dark: linear-gradient(135deg, hsl(0 0% 3%), hsl(0 0% 8%));
-    --gradient-vibrant: linear-gradient(135deg, hsl(190 95% 45%), hsl(190 95% 55%), hsl(55 95% 60%));
+    --gradient-sunset: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(190 95% 45%) 50%, hsl(0 0% 0%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 0%) 0%, hsl(0 0% 3%) 100%);
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 5%));
+    --gradient-vibrant: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(190 95% 45%) 30%, hsl(0 0% 0%) 70%, hsl(55 70% 45%) 100%);
     
     /* Pixel Art Shadows with Neon Glow */
     --shadow-pixel: 5px 5px 0px hsl(190 95% 55%);
     --shadow-pixel-hover: 8px 8px 0px hsl(190 95% 55%);
     --shadow-glow: 0 0 20px hsl(190 95% 55% / 0.6);
     --shadow-cyan: 0 0 30px hsl(190 95% 55% / 0.5);
-    --shadow-yellow: 0 0 30px hsl(55 95% 60% / 0.5);
+    --shadow-yellow: 0 0 30px hsl(55 70% 45% / 0.3);
     
     /* Animations */
     --transition-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -73,32 +73,32 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 3%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 100%;
 
-    --card: 0 0% 8%;
+    --card: 0 0% 5%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 8%;
+    --popover: 0 0% 5%;
     --popover-foreground: 0 0% 100%;
 
     --primary: 190 95% 55%;
-    --primary-foreground: 0 0% 3%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 55 95% 60%;
-    --secondary-foreground: 0 0% 3%;
+    --secondary: 55 70% 45%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 8%;
+    --muted: 0 0% 5%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 55 95% 60%;
-    --accent-foreground: 0 0% 3%;
+    --accent: 55 70% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 0 0% 20%;
-    --input: 0 0% 8%;
+    --input: 0 0% 5%;
     --ring: 190 95% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
