@@ -9,11 +9,11 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(190_95%_55%)] transition-all duration-300",
-        destructive: "bg-destructive text-destructive-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(0_84%_60%)] transition-all duration-300",
-        outline: "border border-primary bg-background text-primary hover:scale-105 hover:shadow-[0_0_30px_hsl(190_95%_55%)] transition-all duration-300",
-        secondary: "bg-secondary text-secondary-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(55_70%_45%)] transition-all duration-300",
-        ghost: "hover:scale-105 hover:text-primary hover:shadow-[0_0_20px_hsl(190_95%_55%)] transition-all duration-300",
+        default: "bg-primary text-primary-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(var(--primary))] transition-all duration-300",
+        destructive: "bg-destructive text-destructive-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(var(--destructive))] transition-all duration-300",
+        outline: "border border-primary bg-background text-primary hover:scale-105 hover:shadow-[0_0_30px_hsl(var(--primary))] transition-all duration-300",
+        secondary: "bg-secondary text-secondary-foreground hover:scale-105 hover:shadow-[0_0_30px_hsl(var(--secondary))] transition-all duration-300",
+        ghost: "hover:scale-105 hover:text-primary hover:shadow-[0_0_20px_hsl(var(--primary))] transition-all duration-300",
         link: "text-primary underline-offset-4 hover:underline hover:scale-105 transition-all duration-300",
       },
       size: {
