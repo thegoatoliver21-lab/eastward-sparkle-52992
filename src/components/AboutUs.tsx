@@ -46,18 +46,18 @@ export const AboutUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative bg-primary/10 backdrop-blur-sm border-2 border-primary/30 p-8 text-center hover:border-primary hover:scale-105 transition-all duration-300 hover:shadow-[0_0_30px_hsl(var(--primary))]"
+              className="group relative bg-background border-2 border-border p-8 text-center hover:border-primary hover:scale-105 transition-all duration-300"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 bg-primary/20 flex items-center justify-center border-2 border-primary group-hover:bg-primary/30 transition-colors">
-                  <feature.icon className="w-10 h-10 text-primary" strokeWidth={2.5} />
+                <div className="w-20 h-20 bg-primary flex items-center justify-center group-hover:rotate-6 transition-transform">
+                  <feature.icon className="w-10 h-10 text-primary-foreground" strokeWidth={2.5} />
                 </div>
               </div>
-              <h3 className="font-pixel text-lg md:text-xl text-primary mb-4">
+              <h3 className="font-pixel text-lg md:text-xl mb-4">
                 {feature.title}
               </h3>
-              <p className="font-game text-sm md:text-base text-primary/70">
+              <p className="font-game text-sm md:text-base text-muted-foreground">
                 {feature.description}
               </p>
             </div>
