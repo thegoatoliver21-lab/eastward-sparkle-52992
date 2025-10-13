@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-32">
       {/* Video de fondo - Gaming/Pixel Art */}
       <div className="absolute inset-0 w-full h-full">
         <video 
