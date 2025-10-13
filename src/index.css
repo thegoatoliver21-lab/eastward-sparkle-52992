@@ -40,9 +40,9 @@ All colors MUST be HSL.
     
     /* Pixel Art Neon Gradients */
     --gradient-sunset: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(190 95% 45%) 50%, hsl(0 0% 0%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 0%) 0%, hsl(0 0% 3%) 100%);
+    --gradient-hero: linear-gradient(to bottom, hsl(180 100% 8%), hsl(0 0% 3%));
     --gradient-dark: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 5%));
-    --gradient-vibrant: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(190 95% 45%) 30%, hsl(0 0% 0%) 70%, hsl(55 70% 45%) 100%);
+    --gradient-vibrant: linear-gradient(135deg, hsl(180 100% 8%) 0%, hsl(190 95% 45%) 50%, hsl(0 0% 3%) 100%);
     
     /* Pixel Art Shadows with Neon Glow */
     --shadow-pixel: 5px 5px 0px hsl(190 95% 55%);
